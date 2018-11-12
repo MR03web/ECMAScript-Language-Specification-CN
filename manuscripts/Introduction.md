@@ -12,7 +12,7 @@ JScript (Microsoft). The language was invented by Brendan Eich at Netscape and f
 Navigator 2.0 browser. It has appeared in all subsequent browsers from Netscape and in all browsers from Microsoft
 starting with Internet Explorer 3.0.
 
-ECMAScript基于几种原创技术，最为著名的是JavaScript(Netscape[^2])和JScript (Microsoft)。这种语言是由Brendan Eich在Netscape发明，于该公司的Navigator 2.0浏览器之上首次出现。并在Netscape的所有后续浏览器和Microsoft的Internet Explorer 3.0以及之后的所有后续浏览器中一直出现。
+ECMAScript基于几种原创技术，最为著名的是JavaScript(Netscape[^2])和JScript (Microsoft)。这种语言是由Brendan Eich在Netscape发明，于该公司的Navigator 2.0浏览器之上首次出现。并在Netscape的所有后续浏览器和Microsoft的Internet Explorer 3.0及其之后的所有浏览器中一直出现。
 
 The development of the ECMAScript Language Specification started in November 1996. The first edition of this Ecma
 Standard was adopted by the Ecma General Assembly of June 1997.
@@ -23,6 +23,8 @@ That Ecma Standard was submitted to ISO/IEC JTC 1 for adoption under the fast-tr
 international standard ISO/IEC 16262, in April 1998. The Ecma General Assembly of June 1998 approved the second
 edition of ECMA-262 to keep it fully aligned with ISO/IEC 16262. Changes between the first and the second edition
 are editorial in nature.
+
+上述Ecma标准以fast-track procedure（？）提交给ISO / IEC JTC 1，
 
 [^1]: [ECMAScript 历史版本](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Language_Resources)
 [^2]: 网景通信公司
