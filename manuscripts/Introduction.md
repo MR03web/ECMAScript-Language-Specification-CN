@@ -38,9 +38,30 @@ Focused development of the sixth edition started in 2009, as the fifth edition w
 
 ECMAScript 2016 was the first ECMAScript edition released under Ecma TC39's new yearly release cadence and open development process. A plain-text source document was built from the ECMAScript 2015 source document to serve as the base for further development entirely on GitHub. Over the year of this standard's development, hundreds of pull requests and issues were filed representing thousands of bug fixes, editorial fixes and other improvements. Additionally, numerous software tools were developed to aid in this effort including Ecmarkup, Ecmarkdown, and Grammarkdown. ES2016 also included support for a new exponentiation operator and adds a new method to Array.prototype called **includes**.
 
-ECMAScript 2016是在Ecma TC39新的逐年发布和开放式开发流程下发布的第一个ECMAScript版本。在GitHub上根据ECMAScript 2015源文档建立了一个纯文本源文档[^4]，以做为未来开发的基础。在一年多的标准开发中，数以百计的pull requests和issues代表了数以千计的bug修复、编辑修复和其他改进。此外，还开发了许多软件工具来帮助完成这项工作，包括Ecmarkup，Ecmarkdown和Grammarkdown。ES2016还包括对新的幂运算符的支持，并为Array.prototype添加了一个名为**includes**的新方法。
+ECMAScript 2016是在Ecma TC39新的逐年发布和开放式开发流程下发布的第一个ECMAScript版本。在GitHub上，根据ECMAScript 2015源文档建立了一个纯文本源文档[^4]，以此做为未来开发的基础。在一年多的标准开发中，数以百计的pull requests和issues代表了数以千计的bug修复、编辑修复和其他改进。此外，还开发了许多软件工具来帮助完成这项工作，包括Ecmarkup，Ecmarkdown和Grammarkdown。ES2016还包括对新的幂运算符的支持，并为Array.prototype添加了一个名为**includes**的新方法。
+
+This specification introduces Async Functions, Shared Memory, and Atomics along with smaller language and library enhancements, bug fixes, and editorial updates. Async functions improve the asynchronous programming experience by providing syntax for promise-returning functions. Shared Memory and Atomics introduce a new memory model that allows multi-agent programs to communicate using atomic operations that ensure a well-defined execution order even on parallel CPUs. This specification also includes new static methods on Object: **Object.values**, **Object.entries**, and **Object.getOwnPropertyDescriptors**.
+
+此规范引入了异步函数、共享内存、原子操作[^5]、小的语言和库的增强、bug修复和编辑性更新。异步函数通过提供promise-returning函数语言来改进异步编程体验。共享内存和原子操作引入了一种新的内存模型，以允许多个代理程序使用原子操作进行通信，即使在并行CPU上也能确保明确定义的执行顺序。该规范还包括对象上的新静态方法：**Object.values**，**Object.entries**和**Object.getOwnPropertyDescriptors**。
+
+Dozens of individuals representing many organizations have made very significant contributions within Ecma TC39 to the development of this edition and to the prior editions. In addition, a vibrant community has emerged supporting TC39's ECMAScript efforts. This community has reviewed numerous drafts, filed thousands of bug reports, performed implementation experiments, contributed test suites, and educated the world-wide developer community about ECMAScript. Unfortunately, it is impossible to identify and acknowledge every person and organization who has contributed to this effort.
+
+代表各个组织的人们在Ecma TC39为本版本和之前版本的开发做出了非常重要的贡献。此外，一个充满活力的支持TC39 ECMAScript工作的社区已经出现。该社区已经审查了许多草案，提交了数千个bug报告，执行了实施实验，贡献了测试套件，并向全世界开发人员社区介绍了ECMAScript。遗憾的是，无法确认并感谢为此工作做出贡献的每个人和组织。
+
+Allen Wirfs-Brock
+ECMA-262, 6^th^ Edition Project Editor
+
+Brian Terlson
+ECMA-262, 7^th^ Edition Project Editor
+
+Allen Wirfs-Brock
+ECMA-262，第六版项目编辑
+
+Brian Terlson
+ECMA-262，第七版项目编辑
 
 [^1]: [ECMAScript 历史版本](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Language_Resources)
 [^2]: 网景通信公司
 [^3]: [explanation-of-the-iso-fast-track-process](https://blogs.msdn.microsoft.com/brian_jones/2007/01/29/explanation-of-the-iso-fast-track-process)
-[^4]: [ecma262](https://github.com/tc39/ecma262)
+[^4]: [Github上的ecma262](https://github.com/tc39/ecma262)
+[^5]: [Atomics对象](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Atomics)
