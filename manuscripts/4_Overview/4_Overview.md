@@ -2,7 +2,7 @@
 
 This section contains a non-normative overview of the ECMAScript language.
 
-本章节包含对ECMAScript语言非规范性的概述。
+本章节包含一个对ECMAScript语言的非规范性概述。
 
 ECMAScript is an object-oriented programming language for performing computations and manipulating computational objects within a host environment. ECMAScript as defined here is not intended to be computationally self-sufficient; indeed, there are no provisions in this specification for input of external data or output of computed results. Instead, it is expected that the computational environment of an ECMAScript program will provide not only the objects and other facilities described in this specification but also certain environment-specific objects, whose description and behaviour are beyond the scope of this specification except to indicate that they may provide certain properties that can be accessed and certain functions that can be called from an ECMAScript program.
 
