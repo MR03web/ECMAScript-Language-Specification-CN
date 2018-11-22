@@ -21,3 +21,5 @@
 * non-null - 非空
 * prototype chain - 原型链
 * instance/instances - 实例
+* feature/features - 特性
+* strict mode - 严格模式
