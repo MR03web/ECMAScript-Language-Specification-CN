@@ -2,7 +2,7 @@
 
 The ECMAScript Language recognizes the possibility that some users of the language may wish to restrict their usage of some features available in the language. They might do so in the interests of security, to avoid what they consider to be error-prone features, to get enhanced error checking, or for other reasons of their choosing. In support of this possibility, ECMAScript defines a strict variant of the language. The strict variant of the language excludes some specific syntactic and semantic features of the regular ECMAScript language and modifies the detailed semantics of some features. The strict variant also specifies additional error conditions that must be reported by throwing error exceptions in situations that are not specified as errors by the non-strict form of the language.
 
-ECMAScript考虑到有些用户希望在使用时限制语言的一些特性的用法。他们这样做可能是为了安全考虑，避免一些他们认为容易出错的特性，获得增强的错误检查或其他原因。为了支持这种场景，ECMAScript定义了语言的一个严格变体。严格变体也定义了附加的错误情况，会通过抛出错误异常的方式来报告这些错误，而这些错误情况在语言非严格模式下并不认为是错误。
+ECMAScript考虑到有些用户希望在使用时限制语言的一些功能的用法。他们这样做可能是为了安全考虑，避免一些他们认为容易出错的功能，获得增强的错误检查或其他原因。为了支持这种场景，ECMAScript定义了语言的一个严格变体。严格变体也定义了附加的错误情况，会通过抛出错误异常的方式来报告这些错误，而这些错误情况在语言非严格模式下并不认为是错误。
 
 The strict variant of ECMAScript is commonly referred to as the *strict mode* of the language. Strict mode selection and use of the strict mode syntax and semantics of ECMAScript is explicitly made at the level of individual ECMAScript source text units. Because strict mode is selected at the level of a syntactic source text unit, strict mode only imposes restrictions that have local effect within such a source text unit.
 

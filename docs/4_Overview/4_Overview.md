@@ -18,7 +18,7 @@ ECMAScript最初被设计成一种Web脚本语言，提供了一种使浏览器�
 
 ECMAScript usage has moved beyond simple scripting and it is now used for the full spectrum of programming tasks in many different environments and scales. As the usage of ECMAScript has expanded, so has the features and facilities it provides. ECMAScript is now a fully featured general-purpose programming language.
 
-ECMAScript的使用已经超越了简单的脚本，它现在可用于许多不同环境和规模的全方位编程任务。随着ECMAScript的使用范围的扩大，它提供的特性和机能也在不断扩展。 ECMAScript现在是一种功能齐全的通用编程语言。
+ECMAScript的使用已经超越了简单的脚本，它现在可用于许多不同环境和规模的全方位编程任务。随着ECMAScript的使用范围的扩大，它提供的功能和机能也在不断扩展。 ECMAScript现在是一种功能齐全的通用编程语言。
 
 Some of the facilities of ECMAScript are similar to those used in other programming languages; in particular C, Java™, Self, and Scheme as described in:
 

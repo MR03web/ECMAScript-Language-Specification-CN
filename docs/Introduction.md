@@ -26,7 +26,7 @@ After publication of the third edition, ECMAScript achieved massive adoption in 
 
 The fifth edition of ECMAScript (published as ECMA-262 5 th edition) codified de facto interpretations of the language specification that have become common among browser implementations and added support for new features that had emerged since the publication of the third edition. Such features include accessor properties, reflective creation and inspection of objects, program control of property attributes, additional array manipulation functions, support for the JSON object encoding format, and a strict mode that provides enhanced error checking and program security. The fifth edition was adopted by the Ecma General Assembly of December 2009.
 
-ECMAScript第五版（发布为 ECMA-262 5 th edition）编纂了浏览器中已经普遍实现的事实语言规范，并且添加了从第三版以来就出现了的新特性的支持。这些特性包括访问器属性，反射创建和对象检测，属性特性的程序控制，新增的数组操作函数，JSON对象编码格式的支持，以及提供增强的错误检查和程序安全性的严格模式。该版本于2009年12月由Ecma大会通过。
+ECMAScript第五版（发布为 ECMA-262 5 th edition）编纂了浏览器中已经普遍实现的事实语言规范，并且添加了从第三版以来就出现了的新功能的支持。这些功能包括访问器属性，反射创建和对象检测，属性特性的程序控制，新增的数组操作函数，JSON对象编码格式的支持，以及提供增强的错误检查和程序安全性的严格模式。该版本于2009年12月由Ecma大会通过。
 
 The fifth edition was submitted to ISO/IEC JTC 1 for adoption under the fast-track procedure, and approved as Introduction Ecma International international standard ISO/IEC 16262:2011. Edition 5.1 of the ECMAScript Standard incorporated minor corrections and is the same text as ISO/IEC 16262:2011. The 5.1 Edition was adopted by the Ecma General Assembly of June 2011.
 
