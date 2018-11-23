@@ -280,4 +280,4 @@ property that is directly contained by its object
 
 property of an object that is not an own property but is a property (either own or inherited) of the object's prototype
 
-不是对象自身拥有的属性，而是对象原型的属性（原型的自身属性或继承属性）。
+不是对象自身拥有的属性，而是对象原型的属性（原型的自身属性或继承属性）
