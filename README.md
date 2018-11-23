@@ -8,7 +8,7 @@ ECMASc­ript Langu­age Sp­ecific­ation 中文版试翻译
 
 ## 文件目录
 
-完成文档在docs文件夹,未完成手稿在manuscripts文件夹
+完成文档在release文件夹,未完成手稿在manuscripts文件夹
 
 ## 参考
 
