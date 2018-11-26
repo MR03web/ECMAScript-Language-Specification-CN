@@ -1,4 +1,4 @@
-# 单词和词组对照表
+# 单词和短语对照表
 
 ## A
 
@@ -18,6 +18,7 @@ callable object - 可调用对象
 ## E
 
 expression - 表达式
+Environment Record - 环境记录项
 
 ## F
 
