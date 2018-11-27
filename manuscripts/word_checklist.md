@@ -29,6 +29,7 @@ feature/features - 功能
 
 general-purpose programming language - 通用编程语言
 global object - 全局对象
+global environment - 全局环境
 
 ## H
 
@@ -36,6 +37,7 @@ global object - 全局对象
 
 implicit reference - 隐式引用
 instance/instances - 实例
+identifier bindings - 标识符绑定
 
 ## J
 
