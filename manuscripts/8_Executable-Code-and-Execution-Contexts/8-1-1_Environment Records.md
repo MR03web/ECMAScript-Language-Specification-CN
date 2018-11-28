@@ -1,0 +1,5 @@
+# 8.1.1 Environment Records
+
+There are two primary kinds of *Environment Record* values used in this specification: *declarative Environment Records* and *object Environment Records*. Declarative Environment Records are used to define the effect of ECMAScript language syntactic elements such as *FunctionDeclarations*, *VariableDeclarations*, and *Catch* clauses that directly associate identifier bindings with ECMAScript language values. Object Environment Records are used to define the effect of ECMAScript elements such as *WithStatement* that associate identifier bindings with the properties of some object. Global Environment Records and function Environment Records are specializations that are used for specifically for *Script* global declarations and for top-level declarations within functions.
+
+在本标准中，共有两类环境记录项：声明式环境记录项和对象式环境记录项。

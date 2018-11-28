@@ -15,10 +15,12 @@ callable object - 可调用对象
 
 ## D
 
+declarative Environment Records - 声明式环境记录项
+
 ## E
 
 expression - 表达式
-Environment Record - 环境记录项
+EnvironmentRecord - 环境记录项
 
 ## F
 
@@ -59,6 +61,7 @@ non-null - 非空
 
 object/objects - 对象
 operator/operators - 运算符
+object Environment Records - 对象式环境记录项
 
 ## P
 
