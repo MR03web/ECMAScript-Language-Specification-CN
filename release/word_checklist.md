@@ -1,4 +1,4 @@
-# 单词和词组对照表
+# 单词和短语对照表
 
 ## A
 
@@ -18,6 +18,7 @@ callable object - 可调用对象
 ## E
 
 expression - 表达式
+Environment Record - 环境记录项
 
 ## F
 
@@ -28,6 +29,7 @@ feature/features - 功能
 
 general-purpose programming language - 通用编程语言
 global object - 全局对象
+global environment - 全局环境
 
 ## H
 
@@ -35,6 +37,7 @@ global object - 全局对象
 
 implicit reference - 隐式引用
 instance/instances - 实例
+identifier bindings - 标识符绑定
 
 ## J
 
