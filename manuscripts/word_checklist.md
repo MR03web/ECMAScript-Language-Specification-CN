@@ -15,7 +15,7 @@ callable object - 可调用对象
 
 ## D
 
-declarative Environment Records - 声明式环境记录项
+declarative Environment Records - 声明环境记录项
 
 ## E
 
@@ -60,8 +60,9 @@ non-null - 非空
 ## O
 
 object/objects - 对象
+object-oriented - 面向对象
 operator/operators - 运算符
-object Environment Records - 对象式环境记录项
+object Environment Records - 对象环境记录项
 
 ## P
 

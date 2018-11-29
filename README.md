@@ -2,6 +2,8 @@
 
 ECMASc­ript Langu­age Sp­ecific­ation 中文版试翻译
 
+采用[谷歌翻译](https://translate.google.cn/)
+
 ## 介绍
 
 基于[ECMAScript® 2018 Language Specification(ECMA-262, 9th edition)](http://www.ecma-international.org/publications/standards/Ecma-262.htm)尝试翻译，中英对照
