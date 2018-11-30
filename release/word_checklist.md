@@ -7,6 +7,7 @@ attribute/attributes - 特性
 ## B
 
 built-in - 内置
+binding - 绑定
 
 ## C
 
@@ -15,15 +16,18 @@ callable object - 可调用对象
 
 ## D
 
+declarative Environment Records - 声明环境记录项
+
 ## E
 
 expression - 表达式
-Environment Record - 环境记录项
+EnvironmentRecord - 环境记录项
 
 ## F
 
 facilities - 机能
 feature/features - 功能
+flag - flag
 
 ## G
 
@@ -58,7 +62,9 @@ non-null - 非空
 ## O
 
 object/objects - 对象
+object-oriented - 面向对象
 operator/operators - 运算符
+object Environment Records - 对象环境记录项
 
 ## P
 

@@ -7,6 +7,7 @@ attribute/attributes - 特性
 ## B
 
 built-in - 内置
+binding - 绑定
 
 ## C
 
@@ -26,6 +27,7 @@ EnvironmentRecord - 环境记录项
 
 facilities - 机能
 feature/features - 功能
+flag - flag
 
 ## G
 
