@@ -16,7 +16,8 @@ callable object - 可调用对象
 
 ## D
 
-declarative Environment Records - 声明环境记录项
+declaration/declarations - 声明
+declarative Environment Records - 声明式环境记录项
 
 ## E
 
@@ -41,6 +42,7 @@ global environment - 全局环境
 
 implicit reference - 隐式引用
 instance/instances - 实例
+identifier/identifiers - 标识符
 identifier bindings - 标识符绑定
 
 ## J
