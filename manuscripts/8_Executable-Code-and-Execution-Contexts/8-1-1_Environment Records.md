@@ -6,7 +6,7 @@ There are two primary kinds of *Environment Record* values used in this specific
 
 For specification purposes Environment Record values are values of the Record specification type and can be thought of as existing in a simple object-oriented hierarchy where Environment Record is an abstract class with three concrete subclasses, declarative Environment Record, object Environment Record, and global Environment Record. Function Environment Records and module Environment Records are subclasses of declarative Environment Record. The abstract class includes the abstract specification methods defined in Table 14. These abstract methods have distinct concrete algorithms for each of the concrete subclasses.
 
-出于规范目的，环境记录项的值是记录规范类型的值，可以将环境记录项理解为一个简单的面向对象式的继承结构，环境记录项是一个有三个实现类的抽象类，即声明环境记录，对象环境记录和全局环境记录。函数环境记录和模块环境记录是声明环境记录的子类。表14是这个抽象类的抽象方法. 对于每个实现类，这些抽象方法具有不同的算法。
+出于规范目的，环境记录项的值是记录规范类型的值，可以将环境记录项理解为一个简单的面向对象式的继承结构，环境记录项是一个抽象类，它有三个实现类，即声明环境记录，对象环境记录和全局环境记录。函数环境记录和模块环境记录是声明式环境记录的子类。表14是这个抽象类的抽象方法，对于每个实现类，这些抽象方法具有不同的实际算法。
 
 Method 方法 | Purpose 目的
 ------------ | -------------
