@@ -16,7 +16,7 @@ ECMAScript定义了完整的ECMAScript实体的内置对象集合。这些内置
 
 ECMAScript also defines a set of built-in *operators*. ECMAScript operators include various unary operations, multiplicative operators, additive operators, bitwise shift operators, relational operators, equality operators, binary bitwise operators, binary logical operators, assignment operators, and the comma operator.
 
-ECMAScript中还定义一组内置的*运算符*。ECMAScript运算符包括一元运算符、乘法运算符、加法运算符、位移运算符、关系运算符、相等运算符、二进制位运算符、二进制逻辑运算符、赋值运算符、逗号运算符。
+ECMAScript中还定义一组内置的*操作符*。ECMAScript运算符包括一元运算操作符、乘法操作符、加法操作符、位移操作符、关系操作符、相等操作符、二进制位操作符、二进制逻辑操作符、赋值操作符、逗号操作符。
 
 Large ECMAScript programs are supported by *modules* which allow a program to be divided into multiple sequencesof statements and declarations. Each module explicitly identifies declarations it uses that need to be provided by othermodules and which of its declarations are available for use by other modules.
 

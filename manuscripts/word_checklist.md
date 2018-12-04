@@ -65,7 +65,7 @@ non-null - 非空
 
 object/objects - 对象
 object-oriented - 面向对象
-operator/operators - 运算符
+operator/operators - 操作符
 object Environment Records - 对象环境记录项
 
 ## P

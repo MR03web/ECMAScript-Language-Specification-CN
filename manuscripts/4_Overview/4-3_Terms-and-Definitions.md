@@ -162,7 +162,7 @@ member of the Object type that is an instance of the standard built-in **String*
 
 primitive value corresponding to a double-precision 64-bit binary format IEEE 754-2008 value
 
-原始值，对应一个64位双精度二进制IEEE754值
+原始值，对应一个64位双精度二进制IEEE 754-2008值
 
 > **NOTE** A Number value is a member of the Number type and is a direct representation of a number.
 >
@@ -194,7 +194,7 @@ number value that is the positive infinite number value
 
 number value that is an IEEE 754-2008 “Not-a-Number” value
 
-值为IEEE 754“Not-a-Number”的数字值
+值为IEEE 754-2008的“Not-a-Number”的数字值
 
 ## 4.3.25 Symbol value 符号值
 
