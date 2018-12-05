@@ -44,6 +44,7 @@ implicit reference - 隐式引用
 instance/instances - 实例
 identifier/identifiers - 标识符
 identifier bindings - 标识符绑定
+immutable - 不可变
 
 ## J
 
@@ -56,6 +57,7 @@ Lexical Environment - 词法环境
 ## M
 
 method - 方法
+mutable - 可变
 
 ## N
 

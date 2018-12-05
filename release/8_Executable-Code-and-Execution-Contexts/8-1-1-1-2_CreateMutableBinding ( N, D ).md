@@ -7,8 +7,8 @@ The concrete Environment Record method CreateMutableBinding for declarative Envi
 3. Create a mutable binding in *envRec* for N and record that it is uninitialized. If D is true, record that the newly created binding may be deleted by a subsequent DeleteBinding call.
 4. Return NormalCompletion(empty).
 
-声明性环境记录的实际环境记录方法CreateMutableBinding会创建一个新的对于未初始化的名称N的可变绑定。此环境记录中不得存在
-名称为N的绑定.如果布尔参数D的值为true，则新绑定将标记为可删除。
+声明性环境记录的实际环境记录方法CreateMutableBinding，会创建一个新的对于未初始化的名称N的可变绑定。此前环境记录中不得存在
+名称为N的绑定。如果布尔参数D的值为true，则新绑定将标记为可删除。
 
 1.设*envRec*是调用该方法时的声明性环境记录。
 2.断言：*envRec*没有绑定N。
