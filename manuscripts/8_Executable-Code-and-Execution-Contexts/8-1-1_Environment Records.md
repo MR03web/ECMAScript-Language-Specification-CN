@@ -13,7 +13,8 @@ Method 方法 | Purpose 目的
 HasBinding(N) | 判断环境记录是否包含某个绑定，字符串N是绑定名称文本。包含则返回true，反之返回false。
 CreateMutableBinding(N,D) | 在环境记录中创建一个新的但未初始化的可变绑定。字符串值N是绑定的名称文本。如果Boolean类型参数D为true，这之后可以删除绑定
 CreateImmutableBinding(N,S) | 在环境记录中创建一个新的但未初始化的不可变绑定。字符串值N是绑定的名称文本。如果S为true，则在初始化后再次设置将抛出异常，无论严格模式如何设置该绑定的引用的操作。
-InitializeBinding(N, V) | 设置环境记录中已经存在但没有初始化的绑定的值。字符串值N是绑定的名称文本。V是要设置的绑定的值，可以是任何ECMAScript语言类型的值。S是Boolean flag。 如果S是true，那么绑定无法设置抛出TypeError异常。
+InitializeBinding(N, V) | 设置环境记录中已经存在但没有初始化的绑定的值。字符串值N是绑定的名称文本。V是要设置的绑定的值，可以是任何ECMAScript语言类型的值。
+SetMutableBinding(N, V, S) | 在环境记录中设置已存在的可变绑定的值。字符串值N是绑定的名称文本。V是要设置的绑定的值，可以是任何ECMAScript语言类型的值。S是布尔flag。S是Boolean flag。如果S是true，那么绑定无法设置抛出TypeError异常。
 GetBindingValue(N, S) | 从环境记录中返回一个已经存在的绑定的值。字符串值N是绑定的名称文本。S用于指定是否为严格模式引用或者需要严格模式的引用语义。如果S为true且该绑定不存在，则抛出ReferenceError异常。如果存在但未初始化，则无论S的值如何，都抛出ReferenceError。
 DeleteBinding(N) | 从环境记录项中删除一个绑定。字符串值N是绑定的名称文本。如果存在绑定N，则删除并返回true。如果存在绑定N但无法删除则返回false。如果不存在绑定N则返回true。
 HasThisBinding() | 判断环境记录是否建立了**this**绑定。是则返回true，没有则返回false。
