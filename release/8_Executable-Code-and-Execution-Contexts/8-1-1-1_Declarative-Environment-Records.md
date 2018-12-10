@@ -6,4 +6,4 @@ Each declarative Environment Record is associated with an ECMAScript program sco
 
 The behaviour of the concrete specification methods for declarative Environment Records is defined by the following algorithms.
 
-声明性环境记录的具体规范方法的行为由以下算法定义。
+声明式环境记录的具体规范方法的行为由以下算法定义。

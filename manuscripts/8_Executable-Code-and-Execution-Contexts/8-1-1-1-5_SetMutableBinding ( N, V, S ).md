@@ -16,9 +16,9 @@ The concrete Environment Record method SetMutableBinding for declarative Environ
       b. If S is true, throw a **TypeError** exception.
 7. Return NormalCompletion(empty).
 
-声明性环境记录的实际环境记录方法SetMutableBinding，尝试将名称为参数N的值的当前绑定的绑定值更改为参数V的值。绑定N通常已经存在，但在极少数情况下可能没有。如果绑定是不可变绑定，那么S为真时，会抛出**TypeError**。
+声明式环境记录的具体环境记录方法SetMutableBinding，尝试将名称为参数N的值的当前绑定的绑定值更改为参数V的值。绑定N通常已经存在，但在极少数情况下可能没有。如果绑定是不可变绑定，那么S为真时，会抛出**TypeError**。
 
-1. 设*envRec*是调用该方法时的声明性环境记录。
+1. 设*envRec*是调用该方法时的声明式环境记录。
 2. 如果*envRec*没有绑定N，那么
       a. 如果S为true，则抛出ReferenceError异常。
       b. 执行envRec.CreateMutableBinding（N，true）。

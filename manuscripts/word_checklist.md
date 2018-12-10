@@ -8,6 +8,7 @@ attribute/attributes - 特性
 
 built-in - 内置
 binding - 绑定
+binding object - 绑定对象
 
 ## C
 
@@ -68,7 +69,7 @@ non-null - 非空
 object/objects - 对象
 object-oriented - 面向对象
 operator/operators - 操作符
-object Environment Records - 对象环境记录项
+object Environment Records - 对象式环境记录项
 
 ## P
 
