@@ -8,6 +8,6 @@ The concrete Environment Record method HasBinding for declarative Environment Re
 
 声明式环境记录的具体环境记录方法HasBinding，简单地判断参数标识符是否是记录绑定的标识符之一：
 
-1. 设*envRec*是调用该方法时的声明式环境记录。
+1. 令*envRec*成为调用该方法时的声明式环境记录。
 2. 如果*envRec*有一个名称为N的绑定，返回true。
 3. 如果没有该绑定，返回false。

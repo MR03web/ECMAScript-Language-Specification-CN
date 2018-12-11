@@ -10,7 +10,7 @@ The concrete Environment Record method CreateMutableBinding for declarative Envi
 声明式环境记录的具体环境记录方法CreateMutableBinding，会创建一个新的对于未初始化的名称N的可变绑定。此前环境记录中不得存在
 名称为N的绑定。如果布尔参数D的值为true，则新绑定将标记为可删除。
 
-1.设*envRec*是调用该方法时的声明式环境记录。
+1.令*envRec*成为调用该方法时的声明式环境记录。
 2.断言：*envRec*没有绑定N。
 3.在*envRec*中为N创建一个可变绑定，并记录它是未初始化的。 如果D为true，则记录可在后续操作中调用DeleteBinding删除新创建的绑定。
 4.返回NormalCompletion（空）。

@@ -10,7 +10,7 @@ The concrete Environment Record method InitializeBinding for declarative Environ
 
 声明式环境记录的具体环境记录方法InitializeBinding，用于将名称为N的当前绑定的绑定值设置为参数V的值。此前环境记录中须存在名称为N的未初始化绑定。
 
-1. 设*envRec*是调用该方法时的声明式环境记录。
+1. 令*envRec*成为调用该方法时的声明式环境记录。
 2. 断言：*envRec*具有未初始化绑定N。
 3. 将*envRec*中N的绑定值设置为V.
 4. 记录*envRec*中N的绑定已初始化。
