@@ -8,7 +8,7 @@ The concrete Environment Record method InitializeBinding for declarative Environ
 4. Record that the binding for N in *envRec* has been initialized.
 5. Return NormalCompletion(empty).
 
-声明式环境记录的具体环境记录方法InitializeBinding，用于将名称为N的当前绑定的绑定值设置为参数V的值。此前环境记录中须存在名称为N的未初始化绑定。
+声明式环境记录的具体方法InitializeBinding，用于将名称为N的当前绑定的绑定值设置为参数V的值。此前环境记录中须存在名称为N的未初始化绑定。
 
 1. 令*envRec*成为调用该方法时的声明式环境记录。
 2. 断言：*envRec*具有未初始化绑定N。

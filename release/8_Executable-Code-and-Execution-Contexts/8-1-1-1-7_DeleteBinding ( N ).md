@@ -8,7 +8,7 @@ The concrete Environment Record method DeleteBinding for declarative Environment
 4. Remove the binding for N from *envRec*.
 5. Return true.
 
-声明式环境记录的具体环境记录方法DeleteBinding，只能删除已明确指定为可删除的绑定。
+声明式环境记录的具体方法DeleteBinding，只能删除已明确指定为可删除的绑定。
 
 1. 令*envRec*成为调用该方法时的声明式环境记录。
 2. 断言：*envRec*具有绑定N。

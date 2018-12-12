@@ -13,14 +13,14 @@ The concrete Environment Record method HasBinding for object Environment Records
       b. If *blocked* is true, return false.
 8. Return true.
 
-对象式环境记录的具体环境记录方法HasBinding，确定其关联的绑定对象是否具有名称为参数N的值的属性：
+对象式环境记录的具体方法HasBinding，确定其关联的绑定对象是否具有名称为参数N的值的属性：
 
 1.令*envRec*成为调用该方法的对象式环境记录项。
 2.令*bindings*成为*envRec*的绑定对象。
-3.让*foundBinding*成为  ？ HasProperty（*bindings*，N）。
+3.让*foundBinding*成为 ？ HasProperty（*bindings*，N）。
 4.如果*foundBinding*是false，则返回false。
 5.如果*envRec*的*withEnvironment*的flag为false，则返回true。
-6.让*unscopables*成为  ？ Get（*bindings*，@@unscopables）。
+6.让*unscopables*成为 ？ Get（*bindings*，@@unscopables）。
 7.如果Type（*unscopables*）是Object，那么
       a. 设*blocked*为ToBoolean（？Get（*unscopables*，N））。
       b. 如果*blocked*为true，则返回false。
